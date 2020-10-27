@@ -51,5 +51,10 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# Flex
-*.yy.c
+# flex and yacc
+y.tab.c
+y.tab.h
+y.tab.h.gch
+lex.yy.c
+
+a.out
